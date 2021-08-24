@@ -9,3 +9,8 @@ clientSocket.send(sentence.encode())
 modifiedSentence = clientSocket.recv(1024)
 print('From Server: ', modifiedSentence.decode())
 clientSocket.close()
+
+
+#comment from dipak ambhure 
+
+print("Bye")
